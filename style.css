@@ -1,0 +1,42 @@
+* {
+	box-sizing: 0;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	color: white;
+}
+
+.container {
+	background-color: rebeccapurple;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 70vh;
+	min-width: 70%;
+}
+
+.container h1 {
+	font-size: 2rem;
+}
+
+.container p {
+	padding: 1rem;
+}
+
+.container input {
+	margin: 0.25rem;
+	padding: 0.25rem;
+	width: 10rem;
+	font-weight: 500;
+}
+
+.container h3 {
+	font-size: 1.5rem;
+}
